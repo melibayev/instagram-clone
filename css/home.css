@@ -318,6 +318,16 @@ a {
     font-size: 16px;
   }
 }
+.apps {
+  text-align: center;
+}
+.apps_icons a img {
+  width: 130px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 400px) {
   .form {
     border: none;

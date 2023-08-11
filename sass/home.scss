@@ -269,6 +269,19 @@
     }
 }
 
+.apps {
+    text-align: center;
+    &_icons {
+        a {
+            img {
+                width: 130px;
+                height: 40px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
 @media (max-width: 400px) {
     .form {
         border: none;
