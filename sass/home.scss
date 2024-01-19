@@ -3,13 +3,11 @@
 #home {
     padding-top: 30px;
 }
-
 .home {
     display: grid;
     grid-template-columns: 1.08fr 1fr;
     margin-bottom: 16px;
 }
-
 .home__left {
     position: relative;
     text-align: end;
@@ -22,14 +20,12 @@
         user-select: none;
         pointer-events: none;
     }
-
     img:nth-child(2),
     img:nth-child(3),
     img:last-child {
         position: absolute;
         top: 4.2%;
         right: 7.1%;
-        // right: calc(50% - 343px);
         width: 250px;
         height: 538.84px;
         object-fit: cover;
@@ -45,16 +41,13 @@
         animation-delay: 3.5s;
     }
 }
-
 .top {
     animation-name: fade;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    // animation-duration: 3.5s;
     animation-duration: 3.5s;
     animation-direction: alternate;
-  }
-  
+  } 
 @keyframes fade {
     0% {
         opacity: 1;
@@ -72,15 +65,8 @@
         opacity: 0;
     }
 }
-
 .home__right{
-//     position: relative;
-//     margin-top: 16px;
     max-width: 350px;
-//     padding: 33px 40px;
-//     border: 1px solid rgb(219, 219, 219);
-//     background-color: rgba(255, 255, 255);
-}
 .form {
     position: relative;
     margin-top: 16px;
@@ -90,7 +76,6 @@
     border: 1px solid rgb(219, 219, 219);
     background-color: rgba(255, 255, 255);
 }
-
 .logo {
     text-align: center;
     margin-bottom: 30px;
@@ -99,7 +84,6 @@
         object-fit: cover;
     }
 }
-
 .form_inputs {
     position: relative;
     padding-bottom: 27px;
@@ -116,7 +100,6 @@
     input::placeholder{
         font-size: 12px;
     }
-
     button {
         margin-top: 12px;
         font-weight: 500;
@@ -131,7 +114,6 @@
         border-radius: 8px;
     }
 }
-
 .other_info {
     position: absolute;
     display: inline-block;
@@ -146,7 +128,6 @@
     font-weight: 400;
     font-family: 'Roboto';
 }
-
 .facebook_log {
     margin-top: 30px;
     display: flex;
@@ -168,7 +149,6 @@
         text-decoration: none;
     }
 }
-
 .forgot_password {
     margin-top: 12px;
     text-align: center;
@@ -180,7 +160,6 @@
         text-decoration: none;
     }
 }
-
 .register {
     padding: 24px 10px;
     display: flex;
@@ -198,7 +177,6 @@
     border: 1px solid rgb(219, 219, 219);
     background-color: rgba(255, 255, 255);
 }
-
 .apps {
     text-align: center;
     p {
@@ -220,7 +198,6 @@
         }
     }
 }
-
 .footer {
     padding: 0 80px;
     display: flex;
@@ -236,7 +213,6 @@
         color: rgb(115, 115, 115);
     }
 }
-
 .footer_bottom {
     display: flex;
     justify-content: center;
@@ -248,7 +224,6 @@
         color: rgb(115, 115, 115);
     }
 }
-
 @media (max-width: 1200px) {
     .home__left {
         display: none;
@@ -268,7 +243,6 @@
         }
     }
 }
-
 .apps {
     text-align: center;
     &_icons {
@@ -281,7 +255,6 @@
         }
     }
 }
-
 @media (max-width: 400px) {
     .form {
         border: none;
